@@ -535,6 +535,7 @@ h6 {
 @media (min-width: 1024px) {
     #hero {
         background-attachment: fixed;
+        height: auto;
     }
 }
 
@@ -1280,8 +1281,8 @@ section {
     overflow: hidden;
     text-align: center;
     border-radius: 4px;
-    background: #fff;
-    box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
+    /* background: #fff;
+    box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08); */
 }
 
 .team .member .member-img {
@@ -1294,7 +1295,7 @@ section {
     left: 0;
     bottom: 0;
     right: 0;
-    height: 40px;
+    /* height: 40px; */
     opacity: 0;
     transition: ease-in-out 0.3s;
     text-align: center;
@@ -2136,6 +2137,7 @@ section {
 @media (min-width: 1024px) {
     #custom-tool {
         background-attachment: fixed;
+        height: auto;
     }
 }
 
@@ -2152,4 +2154,17 @@ section {
         font-size: 18px;
         line-height: 24px;
     }
+}
+
+
+/*--------------------------------------------------------------
+# End Hero Section
+--------------------------------------------------------------*/
+
+.custom-content {
+    margin-top: 100px;
+}
+
+.payment-custom {
+    background-color: #e3f2ff;
 }
